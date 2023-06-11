@@ -1,0 +1,183 @@
+/* import google font family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&display=swap');
+/* selecting everything */
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: 'Open Sans', sans-serif, helvetica, Arial;
+ font-weight: 400;
+ font-size: 14px;
+ color: black;
+ /* body background image */
+ background-color: rgb(29, 231, 238);
+ 
+ background-size: cover;
+ 
+}
+label{color: rgb(0, 0, 0);}
+form{background-color: white; max-width: 800px; 
+    border: solid 1px blue;
+   
+
+  
+ background-image: url();  background-repeat: no-repeat; background-size: cover; 
+  
+
+
+}
+input{margin-top: 10px; border: solid 1px; color: rgb(0, 0, 0); border-radius: 5px;}
+
+.container {
+ max-width: 800px;
+width: 100%;
+background-color: white;
+
+
+}
+
+
+
+select{margin-top: 10px; border-radius: 5px; border: solid 1px; color: black;}
+#contact {
+
+ background-color: rgba(255, 255, 255, 0.7);
+ padding: 50% 0px;
+ margin-left: 50% auto;
+ text-align: center;
+}
+#contact input, button {
+ font: 400 15px 'Open Sans', sans-serif, helvetica, Arial;
+ 
+ border: none;
+outline: none;
+height: 45px;
+width: 160px;
+margin-left: 100px;
+background:
+#ce9f11;
+font-size: 20px;
+border-radius: 5px;
+
+
+cursor: pointer;
+background: #ffc000;
+box-shadow: 0 0 5px #ffc000,
+0 0 20px #ffc000,
+0 0 60px #ffc000,
+0 0 150px #ffc000;
+
+color: rgb(150, 3, 3);
+
+
+}
+
+
+
+#contact h1 {
+ font-size: 35px;
+ font-weight: bold;
+ text-align: center;
+ color: blue;
+}
+#contact h3 {
+ margin: 5px 0px 15px;
+ text-align: center;
+}
+.row {
+ display: flex;
+ width: 100% !important;
+ padding: 20px 0px;
+}
+.row .column {
+ margin: 0px 20px;
+ width: 50%;
+}
+fieldset {
+ border: medium none !important;
+ margin:  0 0 10px;
+ min-width: 100%;
+ width: 100%;
+}
+#contact input {
+ width: 50%;
+ border: 1px solid rgb(1, 1, 2);
+ background-color: white;
+ 
+ margin: 4px 0;
+}
+input[type = "radio"] {
+ width: 10% !important;
+}
+#contact .row .radio {
+ border: 1px solid rgb(150, 150, 150);
+ background-color: white;
+ margin: 7px 0 10px;
+ padding: 5px;
+}
+
+
+#contact input:hover {
+ transition: border-color 0.3s ease-in-out;
+ border: 1px solid rgb(212, 22, 22);
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact button {
+ outline: none;
+ border: none;
+ background-color: blue;
+ color: white;
+ margin: 0 0 5px 60%;
+ padding: 10px;
+ font-size: 17px;
+ width: 200px;
+}
+ 
+#contact button:hover {
+ background-color: rgba(0, 0, 255, 0.8);
+}
+ 
+#contact input:focus {
+ outline: 0;
+ border: 1px solid rgb(23, 240, 52);
+}
+ 
+/* mobile responsive mode */
+@media screen and (max-width: 580px )  {
+ .row {
+  flex-direction: column;
+ }
+ .row .column {
+  width: 90% !important;
+ }
+ #contact .row #phone {
+ padding-right: 180px;
+ 
+}
+}
+  
